@@ -1,101 +1,101 @@
-Rank,Name,Industry,Revenue (USD millions),Revenue growth,Employees,Headquarters,City,State,
-1,Walmart,Retail,"611,289",6.70%,"2,100,000","Bentonville, Arkansas",Bentonville, Arkansas,
-2,Amazon,Retail and cloud computing,"513,983",9.40%,"1,540,000","Seattle, Washington",Seattle, Washington,
-3,ExxonMobil,Petroleum industry,"413,680",44.80%,"62,000","Spring, Texas",Spring, Texas,
-4,Apple,Electronics industry,"394,328",7.80%,"164,000","Cupertino, California",Cupertino, California,
-5,UnitedHealth Group,Healthcare,"324,162",12.70%,"400,000","Minnetonka, Minnesota",Minnetonka, Minnesota,
-6,CVS Health,Healthcare,"322,467",10.40%,"259,500","Woonsocket, Rhode Island",Woonsocket, Rhode Island,
-7,Berkshire Hathaway,Conglomerate,"302,089",9.40%,"383,000","Omaha, Nebraska",Omaha, Nebraska,
-8,Alphabet,Technology and cloud computing,"282,836",9.80%,"156,000","Mountain View, California",Mountain View, California,
-9,McKesson Corporation,Health,"276,711",4.80%,"48,500","Irving, Texas",Irving, Texas,
-10,Chevron Corporation,Petroleum industry,"246,252",51.60%,"43,846","San Ramon, California",San Ramon, California,
-11,Cencora,Pharmacy wholesale,"238,587",11.50%,"41,500","Chesterbrook, Pennsylvania",Chesterbrook, Pennsylvania,
-12,Costco,Retail,"226,954",15.80%,"304,000","Issaquah, Washington",Issaquah, Washington,
-13,Microsoft,Technology and cloud computing,"198,270",18.00%,"221,000","Redmond, Washington",Redmond, Washington,
-14,Cardinal Health,Healthcare,"181,364",11.60%,"46,035","Dublin, Ohio",Dublin, Ohio,
-15,Cigna,Health insurance,"180,516",3.70%,"70,231","Bloomfield, Connecticut",Bloomfield, Connecticut,
-16,Marathon Petroleum,Petroleum industry,"180,012",27.60%,"17,800","Findlay, Ohio",Findlay, Ohio,
-17,Phillips 66,Petroleum industry,"175,702",53.00%,"13,000","Houston, Texas",Houston, Texas,
-18,Valero Energy,Petroleum industry,"171,189",58.00%,"9,743","San Antonio, Texas",San Antonio, Texas,
-19,Ford Motor Company,Automotive industry,"158,057",15.90%,"173,000","Dearborn, Michigan",Dearborn, Michigan,
-20,The Home Depot,Retail,"157,403",4.10%,"471,600","Atlanta, Georgia",Atlanta, Georgia,
-21,General Motors,Automotive industry,"156,735",23.40%,"167,000","Detroit, Michigan",Detroit, Michigan,
-22,Elevance Health,Healthcare,"156,595",13.00%,"102,200","Indianapolis, Indiana",Indianapolis, Indiana,
-23,JPMorgan Chase,Financial services,"154,792",21.70%,"293,723","New York City, New York",New York City, New York,
-24,Kroger,Retail,"148,258",7.50%,"430,000","Cincinnati, Ohio",Cincinnati, Ohio,
-25,Centene,Healthcare,"144,547",14.70%,"74,300","St. Louis, Missouri",St. Louis, Missouri,
-26,Verizon Communications,Telecommunications,"136,835",2.40%,"117,100","New York City, New York",New York City, New York,
-27,Walgreens Boots Alliance,Pharmaceutical industry,"132,703",10.70%,"262,500","Deerfield, Illinois",Deerfield, Illinois,
-28,Fannie Mae,Financials,"121,596",19.70%,"8,000","Washington, D.C.",Washington, D.C.,
-29,Comcast,Telecommunications,"121,427",4.30%,"186,000","Philadelphia, Pennsylvania",Philadelphia, Pennsylvania,
-30,AT&T,Conglomerate and telecomunications,"120,741",28.50%,"160,700","Dallas, Texas",Dallas, Texas,
-31,Meta Platforms,Technology,"116,609",1.10%,"86,482","Menlo Park, California",Menlo Park, California,
-32,Bank of America,Financials,"115,053",22.60%,"216,823","Charlotte, North Carolina",Charlotte, North Carolina,
-33,Target Corporation,Retail,"109,120",2.90%,"440,000","Minneapolis, Minnesota",Minneapolis, Minnesota,
-34,Dell Technologies,Technology,"102,301",4.40%,"133,000","Round Rock, Texas",Round Rock, Texas,
-35,Archer Daniels Midland,Food industry,"101,556",19.10%,"41,181","Chicago, Illinois",Chicago, Illinois,
-36,Citigroup,Financials,"101,078",26.60%,"238,104","New York City, New York",New York City, New York,
-37,United Parcel Service,Transportation,"100,338",3.10%,"404,700","Atlanta, Georgia",Atlanta, Georgia,
-38,Pfizer,Pharmaceutical industry,"100,330",23.40%,"83,000","New York City, New York",New York City, New York,
-39,Lowe's,Retail,"97,059",0.80%,"244,500","Mooresville, North Carolina",Mooresville, North Carolina,
-40,Johnson & Johnson,Pharmaceutical industry,"94,943",1.20%,"152,700","New Brunswick, New Jersey",New Brunswick, New Jersey,
-41,FedEx,Transportation,"93,512",11.40%,"518,249","Memphis, Tennessee",Memphis, Tennessee,
-42,Humana,Health insurance,"92,870",11.80%,"67,100","Louisville, Kentucky",Louisville, Kentucky,
-43,Energy Transfer Partners,Petroleum industry,"89,876",33.30%,"12,565","Dallas, Texas",Dallas, Texas,
-44,State Farm,Financials,"89,328",8.60%,"60,519","Bloomington, Illinois",Bloomington, Illinois,
-45,Freddie Mac,Financials,"86,717",31.60%,"7,819","McLean, Virginia",McLean, Virginia,
-46,PepsiCo,Beverage,"86,859",8.70%,"315,000","Purchase, New York",Purchase, New York,
-47,Wells Fargo,Financials,"82,859",0.50%,"238,000","San Francisco, California",San Francisco, California,
-48,The Walt Disney Company,Media,"82,722",22.70%,"195,800","Burbank, California",Burbank, California,
-49,ConocoPhillips,Petroleum industry,"82,156",69.90%,"9,500","Houston, Texas",Houston, Texas,
-50,Tesla,Automotive and energy,"81,462",51.40%,"127,855","Austin, Texas",Austin, Texas,
-51,Procter & Gamble,Consumer products manufacturing,"80,187",5.30%,"106,000","Cincinnati, Ohio",Cincinnati, Ohio,
-52,United States Postal Service,Logistics,"78,620",2.00%,"576,000","Washington, D.C.",Washington, D.C.,
-53,Albertsons,Retail,"77,650",8.00%,"198,650","Boise, Idaho",Boise, Idaho,
-54,General Electric,Conglomerate,"76,555",3.20%,"172,000","Boston, Massachusetts",Boston, Massachusetts,
-55,MetLife,Financials,"69,898",1.70%,"45,000","New York City, New York",New York City, New York,
-56,Goldman Sachs,Financials,"68,711",5.70%,"48,500","New York City, New York",New York City, New York,
-57,Sysco,Food service,"68,636",33.80%,"70,510","Houston, Texas",Houston, Texas,
-58,Bunge Limited,Food industry,"67,232",13.70%,"23,000","White Plains, New York",White Plains, New York,
-59,RTX Corporation,Conglomerate,"67,074",4.20%,"182,000","Arlington County, Virginia",Arlington County, Virginia,
-60,Boeing,Aerospace and defense,"66,608",6.90%,"156,000","Arlington County, Virginia",Arlington County, Virginia,
-61,StoneX Group,Financials,"66,036",55.30%,"4,000[2]","New York City, New York",New York City, New York,
-62,Lockheed Martin,Aerospace and defense,"65,984",1.60%,"116,000","Bethesda, Maryland",Bethesda, Maryland,
-63,Morgan Stanley,Financials,"65,936",7.90%,"82,427","New York City, New York",New York City, New York,
-64,Intel,Technology,"63,054",20.10%,"131,900","Santa Clara, California",Santa Clara, California,
-65,HP,Technology,"62,983",0.80%,"58,000","Palo Alto, California",Palo Alto, California,
-66,TD Synnex,Infotech,"62,344",97.20%,"28,500","Clearwater, Florida",Clearwater, Florida,
-67,IBM,Technology and cloud computing,"60,530",16.30%,"303,100","Armonk, New York",Armonk, New York,
-68,HCA Healthcare,Healthcare,"60,233",2.50%,"250,500","Nashville, Tennessee",Nashville, Tennessee,
-69,Prudential Financial,Financials,"60,050",15.30%,"39,583","Newark, New Jersey",Newark, New Jersey,
-70,Caterpillar,Machinery,"59,427",16.60%,"109,100","Deerfield, Illinois",Deerfield, Illinois,
-71,Merck & Co.,Pharmaceutical industry,"59,283",15.80%,"68,000","Kenilworth, New Jersey",Kenilworth, New Jersey,
-72,World Fuel Services,Petroleum industry and logistics,"59,043",88.40%,"5,214","Miami, Florida",Miami, Florida,
-73,New York Life Insurance Company,Insurance,"58,445",14.20%,"15,050","New York City, New York",New York City, New York,
-74,Enterprise Products,Petroleum industry,"58,186",42.60%,"7,300","Houston, Texas",Houston, Texas,
-75,AbbVie,Pharmaceutical industry,"58,054",3.30%,"50,000","Lake Bluff, Illinois",Lake Bluff, Illinois,
-76,Plains All American Pipeline,Petroleum industry,"57,342",36.30%,"4,100","Houston, Texas",Houston, Texas,
-77,Dow Chemical Company,Chemical industry,"56,902",3.50%,"37,800","Midland, Michigan",Midland, Michigan,
-78,AIG,Insurance,"56,437",8.40%,"26,200","New York City, New York",New York City, New York,
-79,American Express,Financial,"55,625",27.30%,"77,300","New York City, New York",New York City, New York,
-80,Publix,Retail,"54,942",13.50%,"242,000","Lakeland, Florida",Lakeland, Florida,
-81,Charter Communications,Telecommunications,"54,022",4.50%,"101,700","Stamford, Connecticut",Stamford, Connecticut,
-82,Tyson Foods,Food processing,"53,282",13.20%,"142,000","Springdale, Arkansas",Springdale, Arkansas,
-83,John Deere,Agriculture manufacturing,"52,577",19.40%,"82,239","Moline, Illinois",Moline, Illinois,
-84,Cisco,Telecom hardware manufacturing,"51,557",3.50%,"83,300","San Jose, California",San Jose, California,
-85,Nationwide Mutual Insurance Company,Financial,"51,450",8.60%,"24,791","Columbus, Ohio",Columbus, Ohio,
-86,Allstate,Insurance,"51,412",3.40%,"54,250","Northfield Township, Cook County, Illinois",Northfield Township, Cook County, Illinois
-87,Delta Air Lines,Airline,"50,582",69.20%,"95,000","Atlanta, Georgia",Atlanta, Georgia,
-88,Liberty Mutual,Insurance,"49,956",3.60%,"50,000","Boston, Massachusetts",Boston, Massachusetts,
-89,TJX,Retail,"49,936",2.90%,"329,000","Framingham, Massachusetts",Framingham, Massachusetts,
-90,Progressive Corporation,Insurance,"49,611",4.00%,"55,063","Mayfield Village, Ohio",Mayfield Village, Ohio,
-91,American Airlines,Airline,"48,971",63.90%,"129,700","Fort Worth, Texas",Fort Worth, Texas,
-92,CHS,Agriculture cooperative,"47,194",24.30%,"10,014","Inver Grove Heights, Minnesota",Inver Grove Heights, Minnesota,
-93,Performance Food Group,Food processing,"47,194",61.60%,"34,825","Richmond, Virginia",Richmond, Virginia,
-94,PBF Energy,Petroleum industry,"46,830",71.80%,"3,616","Parsippany–Troy Hills, New Jersey",Parsippany–Troy Hills, New Jersey,
-95,Nike,Apparel,"46,710",4.90%,"79,100","Beaverton, Oregon",Beaverton, Oregon,
-96,Best Buy,Retail,"46,298",10.60%,"71,100","Richfield, Minnesota",Richfield, Minnesota,
-97,Bristol-Myers Squibb,Pharmaceutical industry,"46,159",0.50%,"34,300","New York City, New York",New York City, New York,
-98,United Airlines,Airline,"44,955",82.50%,"92,795","Chicago, Illinois",Chicago, Illinois,
-99,Thermo Fisher Scientific,Laboratory instruments,"44,915",14.50%,"130,000","Waltham, Massachusetts",Waltham, Massachusetts,
-100,Qualcomm,Technology,"44,200",31.70%,"51,000","San Diego, California",San Diego, California,
+Rank,Name,Industry,Revenue (USD millions),Revenue growth,Employees,City,State
+1,Walmart,Retail,611289,0.07,2100000,Bentonville, Arkansas
+2,Amazon,Retail and cloud computing,513983,0.09,1540000,Seattle, Washington
+3,ExxonMobil,Petroleum industry,413680,0.45,62000,Spring, Texas
+4,Apple,Electronics industry,394328,0.08,164000,Cupertino, California
+5,UnitedHealth Group,Healthcare,324162,0.13,400000,Minnetonka, Minnesota
+6,CVS Health,Healthcare,322467,0.1,259500,Woonsocket, Rhode Island
+7,Berkshire Hathaway,Conglomerate,302089,0.09,383000,Omaha, Nebraska
+8,Alphabet,Technology and cloud computing,282836,0.1,156000,Mountain View, California
+9,McKesson Corporation,Health,276711,0.05,48500,Irving, Texas
+10,Chevron Corporation,Petroleum industry,246252,0.52,43846,San Ramon, California
+11,Cencora,Pharmacy wholesale,238587,0.12,41500,Chesterbrook, Pennsylvania
+12,Costco,Retail,226954,0.16,304000,Issaquah, Washington
+13,Microsoft,Technology and cloud computing,198270,0.18,221000,Redmond, Washington
+14,Cardinal Health,Healthcare,181364,0.12,46035,Dublin, Ohio
+15,Cigna,Health insurance,180516,0.04,70231,Bloomfield, Connecticut
+16,Marathon Petroleum,Petroleum industry,180012,0.28,17800,Findlay, Ohio
+17,Phillips 66,Petroleum industry,175702,0.53,13000,Houston, Texas
+18,Valero Energy,Petroleum industry,171189,0.58,9743,San Antonio, Texas
+19,Ford Motor Company,Automotive industry,158057,0.16,173000,Dearborn, Michigan
+20,The Home Depot,Retail,157403,0.04,471600,Atlanta, Georgia
+21,General Motors,Automotive industry,156735,0.23,167000,Detroit, Michigan
+22,Elevance Health,Healthcare,156595,0.13,102200,Indianapolis, Indiana
+23,JPMorgan Chase,Financial services,154792,0.22,293723,New York City, New York
+24,Kroger,Retail,148258,0.08,430000,Cincinnati, Ohio
+25,Centene,Healthcare,144547,0.15,74300,St. Louis, Missouri
+26,Verizon Communications,Telecommunications,136835,0.02,117100,New York City, New York
+27,Walgreens Boots Alliance,Pharmaceutical industry,132703,0.11,262500,Deerfield, Illinois
+28,Fannie Mae,Financials,121596,0.2,8000,Washington, D.C.
+29,Comcast,Telecommunications,121427,0.04,186000,Philadelphia, Pennsylvania
+30,AT&T,Conglomerate and telecomunications,120741,0.29,160700,Dallas, Texas
+31,Meta Platforms,Technology,116609,0.01,86482,Menlo Park, California
+32,Bank of America,Financials,115053,0.23,216823,Charlotte, North Carolina
+33,Target Corporation,Retail,109120,0.03,440000,Minneapolis, Minnesota
+34,Dell Technologies,Technology,102301,0.04,133000,Round Rock, Texas
+35,Archer Daniels Midland,Food industry,101556,0.19,41181,Chicago, Illinois
+36,Citigroup,Financials,101078,0.27,238104,New York City, New York
+37,United Parcel Service,Transportation,100338,0.03,404700,Atlanta, Georgia
+38,Pfizer,Pharmaceutical industry,100330,0.23,83000,New York City, New York
+39,Lowe's,Retail,97059,0.01,244500,Mooresville, North Carolina
+40,Johnson & Johnson,Pharmaceutical industry,94943,0.01,152700,New Brunswick, New Jersey
+41,FedEx,Transportation,93512,0.11,518249,Memphis, Tennessee
+42,Humana,Health insurance,92870,0.12,67100,Louisville, Kentucky
+43,Energy Transfer Partners,Petroleum industry,89876,0.33,12565,Dallas, Texas
+44,State Farm,Financials,89328,0.09,60519,Bloomington, Illinois
+45,Freddie Mac,Financials,86717,0.32,7819,McLean, Virginia
+46,PepsiCo,Beverage,86859,0.09,315000,Purchase, New York
+47,Wells Fargo,Financials,82859,0.01,238000,San Francisco, California
+48,The Walt Disney Company,Media,82722,0.23,195800,Burbank, California
+49,ConocoPhillips,Petroleum industry,82156,0.7,9500,Houston, Texas
+50,Tesla,Automotive and energy,81462,0.51,127855,Austin, Texas
+51,Procter & Gamble,Consumer products manufacturing,80187,0.05,106000,Cincinnati, Ohio
+52,United States Postal Service,Logistics,78620,0.02,576000,Washington, D.C.
+53,Albertsons,Retail,77650,0.08,198650,Boise, Idaho
+54,General Electric,Conglomerate,76555,0.03,172000,Boston, Massachusetts
+55,MetLife,Financials,69898,0.02,45000,New York City, New York
+56,Goldman Sachs,Financials,68711,0.06,48500,New York City, New York
+57,Sysco,Food service,68636,0.34,70510,Houston, Texas
+58,Bunge Limited,Food industry,67232,0.14,23000,White Plains, New York
+59,RTX Corporation,Conglomerate,67074,0.04,182000,Arlington County, Virginia
+60,Boeing,Aerospace and defense,66608,0.07,156000,Arlington County, Virginia
+61,StoneX Group,Financials,66036,0.55,"4,000[2]",New York City, New York
+62,Lockheed Martin,Aerospace and defense,65984,0.02,116000,Bethesda, Maryland
+63,Morgan Stanley,Financials,65936,0.08,82427,New York City, New York
+64,Intel,Technology,63054,0.2,131900,Santa Clara, California
+65,HP,Technology,62983,0.01,58000,Palo Alto, California
+66,TD Synnex,Infotech,62344,0.97,28500,Clearwater, Florida
+67,IBM,Technology and cloud computing,60530,0.16,303100,Armonk, New York
+68,HCA Healthcare,Healthcare,60233,0.03,250500,Nashville, Tennessee
+69,Prudential Financial,Financials,60050,0.15,39583,Newark, New Jersey
+70,Caterpillar,Machinery,59427,0.17,109100,Deerfield, Illinois
+71,Merck & Co.,Pharmaceutical industry,59283,0.16,68000,Kenilworth, New Jersey
+72,World Fuel Services,Petroleum industry and logistics,59043,0.88,5214,Miami, Florida
+73,New York Life Insurance Company,Insurance,58445,0.14,15050,New York City, New York
+74,Enterprise Products,Petroleum industry,58186,0.43,7300,Houston, Texas
+75,AbbVie,Pharmaceutical industry,58054,0.03,50000,Lake Bluff, Illinois
+76,Plains All American Pipeline,Petroleum industry,57342,0.36,4100,Houston, Texas
+77,Dow Chemical Company,Chemical industry,56902,0.04,37800,Midland, Michigan
+78,AIG,Insurance,56437,0.08,26200,New York City, New York
+79,American Express,Financial,55625,0.27,77300,New York City, New York
+80,Publix,Retail,54942,0.14,242000,Lakeland, Florida
+81,Charter Communications,Telecommunications,54022,0.05,101700,Stamford, Connecticut
+82,Tyson Foods,Food processing,53282,0.13,142000,Springdale, Arkansas
+83,John Deere,Agriculture manufacturing,52577,0.19,82239,Moline, Illinois
+84,Cisco,Telecom hardware manufacturing,51557,0.04,83300,San Jose, California
+85,Nationwide Mutual Insurance Company,Financial,51450,0.09,24791,Columbus, Ohio
+86,Allstate,Insurance,51412,0.03,54250,Northfield Township, Cook County
+87,Delta Air Lines,Airline,50582,0.69,95000,Atlanta, Georgia
+88,Liberty Mutual,Insurance,49956,0.04,50000,Boston, Massachusetts
+89,TJX,Retail,49936,0.03,329000,Framingham, Massachusetts
+90,Progressive Corporation,Insurance,49611,0.04,55063,Mayfield Village, Ohio
+91,American Airlines,Airline,48971,0.64,129700,Fort Worth, Texas
+92,CHS,Agriculture cooperative,47194,0.24,10014,Inver Grove Heights, Minnesota
+93,Performance Food Group,Food processing,47194,0.62,34825,Richmond, Virginia
+94,PBF Energy,Petroleum industry,46830,0.72,3616,Parsippany–Troy Hills, New Jersey
+95,Nike,Apparel,46710,0.05,79100,Beaverton, Oregon
+96,Best Buy,Retail,46298,0.11,71100,Richfield, Minnesota
+97,Bristol-Myers Squibb,Pharmaceutical industry,46159,0.01,34300,New York City, New York
+98,United Airlines,Airline,44955,0.83,92795,Chicago, Illinois
+99,Thermo Fisher Scientific,Laboratory instruments,44915,0.15,130000,Waltham, Massachusetts
+100,Qualcomm,Technology,44200,0.32,51000,San Diego, California
