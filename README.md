@@ -75,49 +75,76 @@ df.to_csv(r'C:\Users\migue\OneDrive\Documents\Datasets\Largest_Companies.csv', i
 - Formulated SQL queries to answer specific analytical questions about the top 100 companies.
 - Leveraged SQL functions and aggregations to extract meaningful insights from the dataset.
 - Presented the findings in a clear and concise manner, supporting them with relevant visualizations or summaries.
-```sql
 
--- Top 10 Companies by Revenue
+Top 10 Companies by Revenue
+```sql
 SELECT company_name, revenue_USD_millions
 FROM top_companies
 ORDER BY revenue_USD_millions DESC
 LIMIT 10;
+```
+
+``` sql
 -- Average Revenue:
 SELECT ROUND(AVG(revenue_USD_millions),2) AS avg_revenue
 FROM top_companies;
+```
+
+```sql
 -- Top 10 Companies with the highest Revenue Growth
 SELECT company_name, revenue_growth
 FROM top_companies
 ORDER BY revenue_growth DESC
 LIMIT 10;
+```
+
+```sql
 -- Average Revenue Growth
 SELECT ROUND(AVG(revenue_growth),3) AS avg_revenue_growth
 FROM top_companies;
+```
+
+```sql
 -- Number of Companies by State
 SELECT state, COUNT(*) AS company_count
 FROM top_companies
 GROUP BY state
 ORDER BY company_count DESC;
+```
+
+```sql
 -- Top 6 States by Total Revenue
 SELECT state, SUM(revenue_USD_millions) AS total_revenue
 FROM top_companies
 GROUP BY state
 ORDER BY total_revenue DESC
 LIMIT 5;
+```
+
+```sql
 -- Top 5 Industries by Average Revenue
 SELECT industry, ROUND(AVG(revenue_USD_millions),2) AS avg_revenue
 FROM top_companies
 GROUP BY industry
 ORDER BY avg_revenue DESC
 LIMIT 5;
+```
+
+```sql
 -- Top 10 Companies by NUmber of Employees
 SELECT company_name, number_of_employees
 FROM top_companies
 ORDER BY number_of_employees DESC
 LIMIT 10;
+```
+
+```sql
 -- Average Number of Employees
 SELECT ROUND(AVG(number_of_employees),2) AS avg_num_employees
 FROM top_companies;
+```
+
+```sql
 -- Total Revenue by Industry and City
 SELECT industry, city, SUM(revenue_USD_millions) AS total_revenue
 FROM top_companies
