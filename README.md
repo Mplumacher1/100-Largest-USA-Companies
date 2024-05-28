@@ -1,6 +1,10 @@
 # Portfolio Project: Analysis of Top 100 Companies in the US
 ## Overview
 - This portfolio project presents an analysis of the top 100 companies in the US, utilizing Python, SQL, Excel, and Tableau. The project follows a structured approach, starting with web scraping using Python to gather data, followed by data cleaning in Excel, visualization in Tableau, and concluding with answering analytical questions using SQL.
+## Dashboard
+<img width="923" alt="image" src="https://github.com/Mplumacher1/100-Largest-USA-Companies/assets/164207910/be26732e-dd6d-457c-a0eb-568345fc4ef5">
+
+[Tableau link](https://public.tableau.com/app/profile/miguel.plumacher/viz/Top-USA-Companies/Dashboard1)
 
 ## Steps
 ### Step 1: Web Scraping with Python
