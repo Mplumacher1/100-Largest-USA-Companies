@@ -8,9 +8,12 @@
 
 ## Steps
 ### Step 1: Web Scraping with Python
-- Utilized Python libraries such as BeautifulSoup and requests to scrape data from relevant websites.
+- Utilized Python libraries such as BeautifulSoup, Pandas and requests to scrape data from relevant websites.
 - Extracted key information about the top 100 companies, including their names, industries, revenues, and other relevant metrics.
 - Stored the scraped data in a structured format for further analysis.
+```python
+
+```
 ### Step 2: Data Cleaning with Excel
 - Imported the scraped data into Excel for thorough cleaning and preparation.
 - Removed duplicate entries, corrected inconsistencies, and standardized formats to ensure data quality.
