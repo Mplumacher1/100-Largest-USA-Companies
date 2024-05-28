@@ -152,11 +152,6 @@ GROUP BY industry, city
 ORDER BY total_revenue DESC
 LIMIT 10;
 ```
-## Project Deliverables
-- Python Script: Contains the code for web scraping the top 100 companies' data.
-- Excel Workbook: Includes the cleaned and transformed dataset ready for analysis.
-- Tableau Workbook: Contains interactive dashboards and visualizations.
-- SQL Queries File: Includes SQL queries used for data analysis and answering analytical questions.
-- Readme File: Provides an overview of the project, its steps, and deliverables.
+
 ## Conclusion
 - This portfolio project demonstrates a comprehensive approach to analyzing the top 100 companies in the US, combining web scraping, data cleaning, visualization, and analytical querying techniques. The structured format ensures reproducibility and clarity, allowing stakeholders to gain valuable insights into the performance and characteristics of these companies.
