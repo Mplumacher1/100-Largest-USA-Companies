@@ -138,6 +138,14 @@ FROM top_companies;
 --------------------|
 |0.193|
 
+Number of Companies by State
+```sql
+SELECT state, COUNT(*) AS company_count
+FROM top_companies
+GROUP BY state
+ORDER BY company_count DESC;
+```
+
 |state | company_count |
 --------| --------------|
  New York	| 14 |
@@ -169,12 +177,13 @@ FROM top_companies;
  Cook County	|1|
  Oregon|	1|
  
-Number of Companies by State
+Top 5 States by Total Revenue
 ```sql
-SELECT state, COUNT(*) AS company_count
+SELECT state, SUM(revenue_USD_millions) AS total_revenue
 FROM top_companies
 GROUP BY state
-ORDER BY company_count DESC;
+ORDER BY total_revenue DESC
+LIMIT 5;
 ```
 
 |state | total_revenue|
@@ -185,20 +194,6 @@ ORDER BY company_count DESC;
  Washington	|939207|
  Ohio|	690882|
 
- 
-Top 5 States by Total Revenue
-```sql
-SELECT state, SUM(revenue_USD_millions) AS total_revenue
-FROM top_companies
-GROUP BY state
-ORDER BY total_revenue DESC
-LIMIT 5;
-```
- Texas	1746953
- California	1427400
- New York	1128867
- Washington	939207
- Ohio	690882
  
 Top 5 Industries by Average Revenue
 ```sql
