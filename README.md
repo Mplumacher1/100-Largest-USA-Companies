@@ -203,11 +203,14 @@ GROUP BY industry
 ORDER BY avg_revenue DESC
 LIMIT 5;
 ```
-Electronics industry	394328.00
-Health	276711.00
-Healthcare	198228.00
-Pharmacy wholesale	238587.00
-Retail and cloud computing	513983.00
+industry| avg_revenue|
+--------|------------|
+Electronics industry	|394328.00|
+Health	|276711.00|
+Healthcare|	198228.00|
+Pharmacy wholesale	|238587.00|
+Retail and cloud computing|	513983.00|
+
 Top 10 Companies by NUmber of Employees
 ```sql
 SELECT company_name, number_of_employees
@@ -215,23 +218,29 @@ FROM top_companies
 ORDER BY number_of_employees DESC
 LIMIT 10;
 ```
-Walmart	2100000
-Amazon	1540000
-United States Postal Service	576000
-FedEx	518249
-The Home Depot	471600
-Target Corporation	440000
-Kroger	430000
-United Parcel Service	404700
-UnitedHealth Group	400000
-Berkshire Hathaway	383000
+
+company_name| number_of_employees|
+------------|--------------------|
+Walmart	|2100000|
+Amazon	|1540000|
+United States Postal Service|	576000|
+FedEx	|518249|
+The Home Depot|	471600|
+Target Corporation	|440000|
+Kroger	|430000|
+United Parcel Service|	404700|
+UnitedHealth Group|	400000|
+Berkshire Hathaway	|383000|
 
 Average Number of Employees
 ```sql
 SELECT ROUND(AVG(number_of_employees),2) AS avg_num_employees
 FROM top_companies;
 ```
-169724.26
+|avg_num_employees|
+------------------|
+|169724.26|
+
 Total Revenue by Industry and City
 ```sql
 SELECT industry, city, SUM(revenue_USD_millions) AS total_revenue
@@ -240,16 +249,20 @@ GROUP BY industry, city
 ORDER BY total_revenue DESC
 LIMIT 10;
 ```
-Retail	Bentonville	611289
-Retail and cloud computing	Seattle	513983
-Petroleum industry	Spring	413680
-Electronics industry	Cupertino	394328
-Petroleum industry	Houston	373386
-Healthcare	Minnetonka	324162
-Healthcare	Woonsocket	322467
-Financials	New York City	305623
-Conglomerate	Omaha	302089
-Technology and cloud computing	Mountain View	282836
+
+industry|city|total_revenue
+--------|------|----------|
+Retail	|Bentonville	|611289|
+Retail and cloud computing|	Seattle	|513983|
+Petroleum industry|	Spring	|413680|
+Electronics industry|	Cupertino|	394328|
+Petroleum industry	|Houston	|373386|
+Healthcare	|Minnetonka|	324162|
+Healthcare|	Woonsocket	|322467|
+Financials|	New York City	|305623|
+Conglomerate	|Omaha|	302089|
+Technology and cloud computing|	Mountain View|	282836|
+
 
 ## Conclusion
 - This portfolio project demonstrates a comprehensive approach to analyzing the top 100 companies in the US, combining web scraping, data cleaning, visualization, and analytical querying techniques. The structured format ensures reproducibility and clarity, allowing stakeholders to gain valuable insights into the performance and characteristics of these companies.
