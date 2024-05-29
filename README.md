@@ -83,11 +83,29 @@ FROM top_companies
 ORDER BY revenue_USD_millions DESC
 LIMIT 10;
 ```
+company_name | revenue_USD_millions |
+-------- | ---------|
+Walmart	|611289|
+Amazon	|513983|
+ExxonMobil	|413680|
+Apple	|394328|
+UnitedHealth Group|	324162|
+CVS Health|	322467|
+Berkshire| Hathaway	|302089|
+Alphabet	|282836|
+McKesson Corporation|	276711|
+Chevron Corporation|	246252|
+
+
 Average Revenue
 ``` sql
 SELECT ROUND(AVG(revenue_USD_millions),2) AS avg_revenue
 FROM top_companies;
 ```
+|avg_revenue|
+---------|
+|118086.97|
+
 Top 10 Companies with the highest Revenue Growth
 ```sql
 SELECT company_name, revenue_growth
@@ -95,11 +113,62 @@ FROM top_companies
 ORDER BY revenue_growth DESC
 LIMIT 10;
 ```
+
+| company_name| revenue_growth|
+--------------| --------------|
+TD Synnex	|0.97|
+World Fuel Services|	0.88|
+United Airlines	|0.83|
+PBF Energy	|0.72|
+ConocoPhillips	|0.7|
+Delta Air Lines	|0.69|
+American Airlines|	0.64|
+Performance Food Group|	0.62|
+Valero Energy	|0.58|
+Phillips 66	|0.53|
+
+
 Average Revenue Growth
 ```sql
 SELECT ROUND(AVG(revenue_growth),3) AS avg_revenue_growth
 FROM top_companies;
 ```
+
+|avg_revenue_growth|
+--------------------|
+|0.193|
+
+|state | company_count |
+--------| --------------|
+ New York	| 14 |
+ Texas	|13|
+ California|	10|
+ Illinois|	7|
+ Ohio|	6|
+ Minnesota|	4|
+ New Jersey|	4|
+ Virginia|	4|
+ Massachusetts|	4|
+ Washington	|3|
+ Michigan	|3|
+ Georgia	|3|
+ Florida	|3|
+ Arkansas|	2|
+ Pennsylvania	|2|
+ Connecticut|	2|
+ D.C.|	2|
+ North Carolina|	2|
+ Tennessee	|2|
+ Rhode Island	|1|
+ Nebraska	|1|
+ Indiana	|1|
+ Missouri|	1|
+ Kentucky	|1|
+ Idaho	|1|
+ Maryland|	1|
+ Cook County	|1|
+ Oregon|	1|
+ 
 Number of Companies by State
 ```sql
 SELECT state, COUNT(*) AS company_count
@@ -107,7 +176,17 @@ FROM top_companies
 GROUP BY state
 ORDER BY company_count DESC;
 ```
-Top 6 States by Total Revenue
+
+|state | total_revenue|
+-------|--------------|
+ Texas	|1746953|
+ California	|1427400|
+ New York|	1128867|
+ Washington	|939207|
+ Ohio|	690882|
+
+ 
+Top 5 States by Total Revenue
 ```sql
 SELECT state, SUM(revenue_USD_millions) AS total_revenue
 FROM top_companies
@@ -115,6 +194,12 @@ GROUP BY state
 ORDER BY total_revenue DESC
 LIMIT 5;
 ```
+ Texas	1746953
+ California	1427400
+ New York	1128867
+ Washington	939207
+ Ohio	690882
+ 
 Top 5 Industries by Average Revenue
 ```sql
 SELECT industry, ROUND(AVG(revenue_USD_millions),2) AS avg_revenue
@@ -123,6 +208,11 @@ GROUP BY industry
 ORDER BY avg_revenue DESC
 LIMIT 5;
 ```
+Electronics industry	394328.00
+Health	276711.00
+Healthcare	198228.00
+Pharmacy wholesale	238587.00
+Retail and cloud computing	513983.00
 Top 10 Companies by NUmber of Employees
 ```sql
 SELECT company_name, number_of_employees
@@ -130,11 +220,23 @@ FROM top_companies
 ORDER BY number_of_employees DESC
 LIMIT 10;
 ```
+Walmart	2100000
+Amazon	1540000
+United States Postal Service	576000
+FedEx	518249
+The Home Depot	471600
+Target Corporation	440000
+Kroger	430000
+United Parcel Service	404700
+UnitedHealth Group	400000
+Berkshire Hathaway	383000
+
 Average Number of Employees
 ```sql
 SELECT ROUND(AVG(number_of_employees),2) AS avg_num_employees
 FROM top_companies;
 ```
+169724.26
 Total Revenue by Industry and City
 ```sql
 SELECT industry, city, SUM(revenue_USD_millions) AS total_revenue
@@ -143,6 +245,16 @@ GROUP BY industry, city
 ORDER BY total_revenue DESC
 LIMIT 10;
 ```
+Retail	Bentonville	611289
+Retail and cloud computing	Seattle	513983
+Petroleum industry	Spring	413680
+Electronics industry	Cupertino	394328
+Petroleum industry	Houston	373386
+Healthcare	Minnetonka	324162
+Healthcare	Woonsocket	322467
+Financials	New York City	305623
+Conglomerate	Omaha	302089
+Technology and cloud computing	Mountain View	282836
 
 ## Conclusion
 - This portfolio project demonstrates a comprehensive approach to analyzing the top 100 companies in the US, combining web scraping, data cleaning, visualization, and analytical querying techniques. The structured format ensures reproducibility and clarity, allowing stakeholders to gain valuable insights into the performance and characteristics of these companies.
